@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="web4.png">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -1042,6 +1043,21 @@
       .projects-grid { grid-template-columns: 1fr; }
       .focus-grid { grid-template-columns: 1fr; }
     }
+
+    @media (max-width: 768px) {
+  .hero-visual {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero-photo-wrap {
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+}
+
   </style>
 </head>
 <body>
@@ -1102,7 +1118,7 @@
       </div>
       <div class="hero-stat-row">
         <div class="hero-stat">
-          <span class="val">2+</span>
+          <span class="val">3+</span>
           <span class="lbl">Years Dev</span>
         </div>
         <div class="hero-stat">
